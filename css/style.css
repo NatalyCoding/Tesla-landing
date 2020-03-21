@@ -89,11 +89,14 @@ a {
     box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.5), inset -5px -5px 5px rgba(0, 0, 0, 0.7), inset 5px 5px 5px rgba(255, 255, 255, 0.3);
     color: #ffffff;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .action-btn:hover {
     background: #a3032e;
-    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.5), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.5), inset -5px -5px 5px rgba(0, 0, 0, 0.7), inset 5px 5px 5px rgba(255, 255, 255, 0.3);
+    transform: scale(0.95);
+    transition: all 0.5s;
 }
 
 .slider__item {
