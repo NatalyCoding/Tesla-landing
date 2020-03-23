@@ -79,7 +79,6 @@ a {
 .header-content__text {
     width: 365px;
     margin-bottom: 25px;
-    text-overflow: clip;
 }
 
 .action-btn {
@@ -106,6 +105,11 @@ a {
     top: 0;
     left: -100%;
     width: 100%;
+    transition: all 0.5s;
+}
+
+.menu.active {
+    left: 0;
 }
 
 .menu-container {
