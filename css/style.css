@@ -251,17 +251,9 @@ a {
 }
 
 .video {
-    position: relative;
-    padding: 0 0 58% 0;
-    margin-bottom: 100px;
+   margin-bottom: 100px;
 }
-.video iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
+
 
 .advantages__row {
     margin-bottom: 100px;
